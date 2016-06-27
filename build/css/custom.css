@@ -200,9 +200,6 @@
 body .container.body .right_col {
   background: #F7F7F7; }
 
-.nav-md .container.body .right_col {
-  padding: 10px 20px 0;
-  margin-left: 230px; }
 
 .nav_title {
   width: 230px;
@@ -326,7 +323,7 @@ body .container.body .right_col {
 
 body {
   color: #73879C;
-  background: #2A3F54;
+  background: #ffffff;
   font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
   font-size: 13px;
   font-weight: 400;
@@ -336,6 +333,9 @@ body {
   display: block;
   margin-left: 230px; }
 
+.main_container{
+  padding:10px;
+}
 .no-padding {
   padding: 0 !important; }
 
@@ -2325,7 +2325,9 @@ ul.timeline li {
 
 .timeline.widget {
   min-width: 0;
-  max-width: inherit; }
+  max-width: inherit;
+  height: 380px;
+  overflow: scroll;}
 
 .timeline.widget .block {
   margin-left: 5px; }
